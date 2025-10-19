@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#high-nav {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#high-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  right: 90px;
+}
+#high-nav a {
+  font-size: 19px;
+  color: black;
+}
+.hnav-logo {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  position: absolute;
+  left: 90px;
+}
+#middle-nav {
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+}
+#middle-nav ul {
+  display: flex;
+  gap: 35px;
+  position: absolute;
+  left: 622px;
+}
+.mlogo {
+  position: absolute;
+  width: 90px;
+  left: 90px;
+}
+#middle-nav a {
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
+.search-bar {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  position: absolute;
+  right: 225px;
+  align-items: center;
+}
+.search-bar .fa-magnifying-glass {
+  color: black;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+}
+.search {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  padding: 5px 60px 5px 60px;
+  font-size: 24px;
+}
+.search::placeholder{
+  font-size: 24px;
+  color: grey;
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+.mnav-icons {
+  display: flex;
+  position: absolute;
+  right: 90px;
+  gap: 25px;
+}
+#end-nav {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-chevron-left {
+  position: absolute;
+  left: 380px;
+  color: grey;
+}
+.fa-chevron-right {
+  position: absolute;
+  right: 380px;
+  color: grey;
+}
+#end-nav a {
+  font-size: 18px;
+  color: black;
+  text-decoration: underline;
+}
+#filter-sort {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+}
+#filter-sort h1 {
+  position: absolute;
+  left: 90px;
+  font-weight: 200;
+}
+.filter {
+  position: absolute;
+  right: 220px;
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+}
+.filter a {
+  color: black;
+}
+.sort {
+  position: absolute;
+  display: flex;
+  right: 90px;
+  gap: 15px;
+  font-size: 24px;
+}
+.sort a {
+  color: black;
+}
+.line {
+  width: 90%;
+  height: 1px;
+  background: #d9d9d9;
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 0%,
+    grey(0, 0, 0, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.line-l {
+  padding: 2%;
+}
+#foot-nav2 {
+  display: flex;
+  align-items: center;
+}
+#foot-nav2 ul {
+  gap: 50px;
+  display: flex;
+  position: absolute;
+  left: 90px;
+  color: black;
+}
+#foot-nav2 a {
+  color: black;
+  font-size: large;
+}
+.vertifecation {
+  position: absolute;
+  left: 935px;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  width: calc(100% / 12 * 4);
+  padding: 2rem;
+}
+.card {
+  width: 100%;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+  height: 568px;
+}
+.col-8 {
+  width: calc(100% / 12 * 8);
+  padding: 2rem;
+}
+.row h4 {
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.product-title {
+  color: grey;
+  font-size: 22px;
+}
+.product-price {
+  color: black;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.foot-nav1 {
+  width: 95%;
+  margin: auto;
+  padding: 0px 0px 20px;
+}
+.foot-nav1 .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot-nav1 .row .col {
+  width: calc(100% / 12 * 2);
+  padding: 2rem;
+}
+.foot-nav1 .row .col .car {
+  width: 100%;
+  padding: 20px;
+}
+.col-1 {
+  width: calc(100% / 12 * 1);
+  display: flex;
+  padding: 2rem;
+  position: relative;
+}
+.foot-nav1 .card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+.foot-nav1 .card a {
+  color: rgb(61, 61, 61);
+}
+.card h3 {
+  font-weight: 550;
+  color: black;
+}
+.col-1 .card {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 400px;
+}
+.col-1 .card a {
+  font-size: 18px;
+  color: rgb(80, 78, 78);
+}
+.col-1 .fa-globe {
+  font-size: 18px;
+  color: grey;
+}
