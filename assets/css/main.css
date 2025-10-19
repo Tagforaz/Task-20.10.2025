@@ -10,7 +10,7 @@
 #high-nav {
   background-color: #f5f5f5;
   width: 100%;
-  height: 40px;
+  height: 36px;
   display: flex;
   align-items: center;
 }
@@ -22,7 +22,7 @@
   right: 90px;
 }
 #high-nav a {
-  font-size: 19px;
+  font-size: 12px;
   color: black;
 }
 .hnav-logo {
@@ -36,14 +36,14 @@
   background-color: #ffffff;
   display: flex;
   width: 100%;
-  height: 70px;
+  height: 60px;
   align-items: center;
 }
 #middle-nav ul {
   display: flex;
   gap: 35px;
   position: absolute;
-  left: 622px;
+  left: 672px;
 }
 .mlogo {
   position: absolute;
@@ -51,19 +51,19 @@
   left: 90px;
 }
 #middle-nav a {
-  font-size: 24px;
+  font-size: 16px;
   color: black;
   font-weight: bold;
 }
 .search-bar {
-  width: 200px;
-  height: 45px;
+  width: 120px;
+  height: 36px;
   display: flex;
   position: absolute;
-  right: 225px;
+  right: 195px;
   align-items: center;
 }
-.search-bar .fa-magnifying-glass {
+ .searchsvg {
   color: black;
   display: inline-block;
   position: absolute;
@@ -76,41 +76,42 @@
   background-color: #f5f5f5;
   border: none;
   padding: 5px 60px 5px 60px;
-  font-size: 24px;
+  font-size: 16px;
 }
-.search::placeholder{
-  font-size: 24px;
+.search::placeholder {
+  font-size: 16px;
   color: grey;
   position: absolute;
-  left: 60px;
+  left: 35px;
   top: 10px;
+  font-weight:500;
 }
 .mnav-icons {
   display: flex;
   position: absolute;
   right: 90px;
-  gap: 25px;
+  gap: 10px;
 }
 #end-nav {
   background-color: #f5f5f5;
   width: 100%;
-  height: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .fa-chevron-left {
   position: absolute;
-  left: 380px;
+  left: 580px;
   color: grey;
 }
 .fa-chevron-right {
   position: absolute;
-  right: 380px;
+  right: 580px;
   color: grey;
 }
 #end-nav a {
-  font-size: 18px;
+  font-size: 12px;
   color: black;
   text-decoration: underline;
 }
@@ -123,6 +124,7 @@
 #filter-sort h1 {
   position: absolute;
   left: 90px;
+  font-size: 24px;
   font-weight: 200;
 }
 .filter {
@@ -130,7 +132,7 @@
   right: 220px;
   display: flex;
   gap: 15px;
-  font-size: 24px;
+  font-size: 16px;
 }
 .filter a {
   color: black;
@@ -140,7 +142,7 @@
   display: flex;
   right: 90px;
   gap: 15px;
-  font-size: 24px;
+  font-size: 16px;
 }
 .sort a {
   color: black;
@@ -167,16 +169,16 @@
   gap: 50px;
   display: flex;
   position: absolute;
-  left: 90px;
+  left: 80px;
   color: black;
+  font-size: 14px;
 }
 #foot-nav2 a {
   color: black;
-  font-size: large;
 }
 .vertifecation {
   position: absolute;
-  left: 935px;
+  left: 865px;
 }
 .container {
   width: 95%;
@@ -205,16 +207,16 @@
 }
 .row h4 {
   color: black;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bolder;
 }
 .product-title {
   color: grey;
-  font-size: 22px;
+  font-size: 18px;
 }
 .product-price {
   color: black;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bolder;
 }
 .foot-nav1 {
@@ -224,6 +226,7 @@
 }
 .foot-nav1 .row {
   width: 100%;
+  gap: 80px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -240,32 +243,37 @@
   display: flex;
   padding: 2rem;
   position: relative;
+
 }
 .foot-nav1 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
   margin: 0;
   padding: 0;
 }
 .foot-nav1 .card a {
   color: rgb(61, 61, 61);
+  font-size: 14px;
 }
 .card h3 {
   font-weight: 550;
   color: black;
+  font-size: 14px;
 }
 .col-1 .card {
   display: flex;
   gap: 10px;
   position: absolute;
-  left: 400px;
+  left: 100px;
+  padding: 5px 10px;
+  width: max-content;
 }
 .col-1 .card a {
-  font-size: 18px;
+  font-size: 14px;
   color: rgb(80, 78, 78);
 }
 .col-1 .fa-globe {
-  font-size: 18px;
+  font-size: 14px;
   color: grey;
 }
