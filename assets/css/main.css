@@ -56,14 +56,14 @@
   font-weight: bold;
 }
 .search-bar {
-  width: 120px;
+  width: 150px;
   height: 36px;
   display: flex;
   position: absolute;
-  right: 195px;
+  right: 165px;
   align-items: center;
 }
- .searchsvg {
+.searchsvg {
   color: black;
   display: inline-block;
   position: absolute;
@@ -84,7 +84,7 @@
   position: absolute;
   left: 35px;
   top: 10px;
-  font-weight:500;
+  font-weight: 500;
 }
 .mnav-icons {
   display: flex;
@@ -131,7 +131,7 @@
   position: absolute;
   right: 220px;
   display: flex;
-  gap: 15px;
+  gap: 5px;
   font-size: 16px;
 }
 .filter a {
@@ -141,7 +141,7 @@
   position: absolute;
   display: flex;
   right: 90px;
-  gap: 15px;
+  gap: 5px;
   font-size: 16px;
 }
 .sort a {
@@ -154,7 +154,7 @@
   background: linear-gradient(
     90deg,
     rgba(217, 217, 217, 1) 0%,
-    grey(0, 0, 0, 1) 50%,
+    rgb(77, 76, 76) 50%,
     rgba(255, 255, 255, 1) 100%
   );
 }
@@ -240,10 +240,9 @@
 }
 .col-1 {
   width: calc(100% / 12 * 1);
-  display: flex;
+  /* display: flex; */
   padding: 2rem;
-  position: relative;
-
+  /* position: relative; */
 }
 .foot-nav1 .card ul {
   display: flex;
@@ -262,18 +261,41 @@
   font-size: 14px;
 }
 .col-1 .card {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
   gap: 10px;
   position: absolute;
-  left: 100px;
-  padding: 5px 10px;
-  width: max-content;
+  top: 2462px;
 }
 .col-1 .card a {
   font-size: 14px;
   color: rgb(80, 78, 78);
 }
-.col-1 .fa-globe {
-  font-size: 14px;
+.col-1 .globe-svg {
   color: grey;
+  width: 16px;
+  width: 16px;
+  display: flex;
+}
+.dropdown_menu{
+  display: none;
+  position: absolute ;
+  top: 100%;
+  left: 0;
+  background-color: white;
+}
+.dropdown_menu ul{
+  display: block;
+  margin: 10px;
+}
+.dropdown_menu ul li{
+  width: 150px;
+  padding: 10px;
+}
+#middle-nav ul li:hover .dropdown_menu{
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 100%;
+
 }
